@@ -4,12 +4,12 @@ A simple web game based on famous English mathemetician John Conway's "The Angel
 
 ## Background
 
-<insert angel problem background here>
+\<insert angel problem background here\>
 
 ## Gameplay
 
-<insert gameplay explanation>
+\<insert gameplay explanation\>
 
 ## Try it!
 
-<insert link>
+\<insert link\>
