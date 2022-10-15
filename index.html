@@ -2,18 +2,26 @@
 <html>
     <head>
         <title>Griffin Game</title>
+        <meta name="viewport" content="width=device-width">
         <style>
+            html {
+                scroll-behavior: smooth
+            }
             .game {
-                margin:auto;
-                margin-top:150px;
-                text-align:center;
+                margin:0;
+                text-align:left;
                 display:block;
                 z-index:-1;
+            }
+            body {
+                overflow: hidden;
             }
         </style>
     </head>
     <body>
-        <canvas class="game" id="game" width="-1" height="-1" style = "width:-1px; height:-1px;"></canvas>
+        <img id="griffin" style="position:absolute" src="sprites/griffin_final.png">
+        <img id="steak" style="position:absolute" src="sprites/steak_devil_final.png">
+        <canvas class="game" id="game"></canvas>
         <script src="game.js"></script>
     </body>
 </html>
