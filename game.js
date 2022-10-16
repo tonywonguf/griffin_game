@@ -135,10 +135,12 @@ async function getKeyPress(event) {
         draw(placed_walls)
         turn = false
         placed_walls.forEach(p => {if (parseInt(griffin_position_x) === parseInt(p[0]) && parseInt(griffin_position_y) === parseInt(p[1])) {
-            while (true) {window.alert("griffin died!")}
+            window.alert("Griffin died!")
+            document.location.href = "index.html"
         }});
         if (placed_walls.length === 31*4+1) {
-            while (true) {window.alert('griffin is trapped!')}
+            window.alert('Griffin is trapped!')
+            document.location.href = "index.html"
         }
     }
 }

@@ -1,29 +1,28 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Griffin Game</title>
-<!--        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">-->
-        <style>
-            html {
-                scroll-behavior: smooth
-            }
-            .game {
-                margin-left: -8px;
-                margin-top:25px;
-                text-align:left;
-                display:block;
-                z-index:-1;
-            }
-            body {
-                /*overflow: hidden;*/
-                background-image: url("sprites/game_poster.png");
-            }
-        </style>
-    </head>
-    <body>
-        <img id="griffin" style="position:absolute" src="sprites/griffin_final.png">
-        <img id="steak" style="position:absolute" src="sprites/steak_devil_final.png">
-        <canvas class="game" id="game"></canvas>
-        <script src="game.js"></script>
-    </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Griffin's Game</title>
+    <link rel="stylesheet" href="button-78.css"/>
+    <style>
+        .button-78 {
+          display: block;
+          margin: auto;
+          margin-top: 25%;
+          width: 250px;
+          font-size: 30px;
+          font-family: sans-serif;
+        }
+        .two {
+          margin-top: 5%;
+        }
+        body {
+          background-image: url("sprites/game_poster.png");
+        }
+    </style>
+</head>
+<body>
+  <a href="game.html"> <button class="button-78 one" role="button">Start</button> </a>
+  <a href="https://github.com/tonywonguf/griffin_game"><button class="button-78 two" role="button">About</button> </a>
+</body>
 </html>
