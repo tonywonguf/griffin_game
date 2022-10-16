@@ -18,6 +18,6 @@ This is John Conway's description of *The Angel Problem* in Volume 29 of the MSR
 
 We found the premise of Conway's problem extremely interesting, and realized that it would make for a very fun video game.
 
- 
 
-## [Try it!]
+
+## [Try it!](https://tonywong.me/griffin_game/)
