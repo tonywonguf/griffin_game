@@ -92,7 +92,7 @@ window.addEventListener("keydown", (e) => {if (["Space", "ArrowUp", "ArrowDown",
 
 let turn = false;
 
-function getKeyPress(event) {
+async function getKeyPress(event) {
     var scaled_pixel_width = (unit_resolution*(canvas_style_width/canvas_width));
     var scaled_pixel_height = (unit_resolution*(canvas_style_height/canvas_height));
     switch (event.code){
@@ -134,8 +134,11 @@ function getKeyPress(event) {
         placed_walls.push([devil_move[0], devil_move[1]]);
         draw(placed_walls)
         turn = false
-        placed_walls.forEach(p => {if (parseInt(griffin_position_x) == parseInt(p[0]) && parseInt(griffin_position_y) == parseInt(p[1])) {window.alert("griffin died")}});
-        if (placed_walls.length === 31*4+1)
-            setTimeout(() => {window.alert('griffin is trapped');}, 50);
+        placed_walls.forEach(p => {if (parseInt(griffin_position_x) === parseInt(p[0]) && parseInt(griffin_position_y) === parseInt(p[1])) {
+            while (true) {window.alert("griffin died!")}
+        }});
+        if (placed_walls.length === 31*4+1) {
+            while (true) {window.alert('griffin is trapped!')}
+        }
     }
 }
