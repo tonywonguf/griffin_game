@@ -2,7 +2,7 @@
 
 ![Game Poster](https://raw.githubusercontent.com/tonywonguf/griffin_game/main/sprites/game_poster.png)
 
-A simple web game based on famous English mathemetician John Conway's "The Angel Problem".
+A simple web game based on famous English mathematician John Conway's "The Angel Problem".
 
 ## Background
 
