@@ -6,8 +6,8 @@ let unit_resolution = 200;
 let canvas_width = 65*unit_resolution;
 let canvas_height = 37*unit_resolution;
 // How the grid actually looks on the page
-let canvas_style_width = 1920;
-let canvas_style_height = 936;
+let canvas_style_width = 1900;
+let canvas_style_height = 920;
 window.scrollTo(0,0);
 // Sets attributes through js so I can use variables, tbh don't know how to do it otherwise
 canvas.width = canvas_width;
